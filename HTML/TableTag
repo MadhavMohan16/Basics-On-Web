@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tag</title>
+</head>
+<body>
+    <center>
+    <table border=1>
+    <tr><th colspan=4>Item Details</th></tr>
+    <tr><th>S.No</th><th>Item Name</th><th>Cost</th><th>Available Details</th></tr>
+    <tr><td><center>1</center></td>c</td><td>Mobile</td><td>10000</td><td>5</td></tr>
+    <tr><td><center>2</center></td><td>Keyboard</td><td>5000</td><td>10</td></tr>
+    <tr><td><center>3</center></c</td></td><td>printer</td><td>11000</td><td>15</td></tr>
+     <tr><td><center>4</center></td><td>Mouse</td><td>2000</td><td>50</td></tr>
+     <tr><td><center>5</center></td><td>Laptop</td><td>50000</td><td>100</td></tr>
+    </table>
+    </center>
+    </body>
+</html>
