@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline And Block Elements</title>
+</head>
+<body>
+    <strong style="border: 2px solid red ;">This is a  first paragraph </strong> <a style="border: 2px solid blue ;">This is a  second paragraph </a>
+    <span style="border: 2px solid blue;">This is a  first span </span>  <span style="border: 2px solid red ;">This is a  second span </span>
+   
+    
+</body>
+</html>
