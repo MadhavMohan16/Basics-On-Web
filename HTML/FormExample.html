@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <title>HTml Forms</title>
+</head>
+
+<body>
+    <h1>This is a HTML form</h1>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            Name: <input type="text" name="MyName" id =name>
+        </div>
+        <br>
+        <div>
+            Roll: <input type="number" name="MyRoll">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="MyEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="MyDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="MyBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="MyEligiblity" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="MyGender">
+                    Female<input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Expalin: <br><textarea name="" id="" cols="50" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="MyCar" id="car">
+            <option value="ind" selected>Indica</option>
+               <option value="sw">Swift</option>
+               <option value="bmw">BMW</option>
+            </select>
+
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>
