@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Moddel</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        background-color: rgba(83, 255, 15, 1);
+        border: 3px solid rgb(64, 6, 119);
+        /* we set the padding from top right bottom left el sath de di*/
+        /* padding:79px;
+            margin:30px; */
+        /* we set the padding from top right bottom left  alg alg de di margin k liye bhi hai ye*/
+        /* padding-top:79px;
+            padding-bottom:79px;
+            padding-left:34px;
+            padding-right:34px; */
+        padding: 34px 19px 19px 14px;
+        /* padding=top right bottom left */
+        margin: 30px;
+        border-radius: 20px;
+        width: 533px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h3>This my heading</h3>
+        <p id="firstpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magnam cumque. Dolorem quae
+            blanditiis vero voluptates debitis quibusdam voluptate delectus cumque sunt ipsum pariatur, porro autem
+            saepe fugit quasi? Illo.</p>
+    </div>
+    <div class="container">
+        <h3>This my heading</h3>
+        <p id="secondpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magnam cumque. Dolorem quae
+            blanditiis vero voluptates debitis quibusdam voluptate delectus cumque sunt ipsum pariatur, porro autem
+            saepe fugit quasi? Illo.</p>
+    </div>
+    <div class="container">
+        <h3>This my heading</h3>
+        <p id="thirdpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, magnam cumque. Dolorem quae
+            blanditiis vero voluptates debitis quibusdam voluptate delectus cumque sunt ipsum pariatur, porro autem
+            saepe fugit quasi? Illo.</p>
+    </div>
+
+</body>
+
+</html>
