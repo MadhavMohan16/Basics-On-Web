@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,Width,Border And Background</title>
+    <style>
+        #firstpara{
+            background-color:red;
+            height:100px;
+            width:500px;
+            /* border:4px solid green; */
+            border-width:4px; 
+            border-color:green;
+            border-style:solid;
+            border-radius:10;
+            }
+            #secondpara{
+                background-color:yellow;
+                height:100px;
+                width:500px;
+                border-top: 5px solid violet;
+                border-bottom: 5px solid blue;
+                border-right:5px solid green;
+                border-left:5px solid darkorange;;  
+                border-radius:10;
+            }
+    </style>
+</head>
+<body>
+    <h3>This is a first heading</h3>
+    <p id="firstpara">This is a first paragraph</P>   
+        <h3>This is a second heading</h3>
+        <p id="secondpara">This is a second paragraph</p> 
+        
+</body>
+</html>
