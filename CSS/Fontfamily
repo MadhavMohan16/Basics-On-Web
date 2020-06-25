@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fonts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+    <style>
+        p{
+            font-family:Notable;
+            font-size:20px;
+            line-height: 3.00em;
+        }
+        span{
+            font-weight:bold;
+            font-style:italic;
+        }
+    </style>
+    
+</head>
+<body>
+    <p>Lets play with font tags</p>
+    <span>Hello world</span>
+    
+</body>
+</html>
