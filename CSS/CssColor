@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors in CSS</title>
+    <style>
+        #firstpara{
+            color:red;/* color by name */
+        }
+        #secondpara{
+            color:rgb(2,222, 54)/*color by rgb*/
+        }
+        #thirdpara{
+            color:#808000;/* color by hex value*/
+        }
+    </style>
+</head>
+<body>
+    <p id ="firstpara"> This is a first paragraph</p>
+    <p id="secondpara">This is a second paragraph</p>
+    <p id="thirdpara">This is a third paragraph</p>
+    
+</body>
+</html>
