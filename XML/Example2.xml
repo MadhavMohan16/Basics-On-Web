@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails>
+  	<email>
+     	<to>Sameer</to>
+		<from>Ajay</from>
+		<heading>Hello</heading>
+		<body>Hello brother,How are you</body>
+	</email>
+	
+	<email>
+     	<to>Peter</to>
+		<from>Jack</from>
+		<heading>Birthday wish</heading>
+		<body>Happy birthday Tom</body>
+	</email>
+	
+	<email>
+     	<to>James</to>
+		<from>Vijay</from>
+		<heading>Morning Walk</heading>
+		<body>Good Morning</body>
+	</email>
+</emails>
