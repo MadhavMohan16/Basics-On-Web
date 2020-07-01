@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees [<!ELEMENT employees (employee+)>
+<!ELEMENT employee ANY>
+<!ELEMENT empname (#PCDATA)>
+<!ELEMENT empsalary (#PCDATA)> 
+]>
+<employees>
+
+	<employee>Employee information</employee>
+	
+    <employee>
+          <empsalary>1000</empsalary>
+    </employee>
+    
+     <employee>
+        The empoyee name is<empname>Navin</empname>
+     </employee>
+    
+    <employee></employee>
+        
+</employees>
