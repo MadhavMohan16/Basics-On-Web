@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "notes.dtd">
+<books>
+		<book>
+			<book-name>English</book-name>
+			<price>1000</price>
+			<author>Sameer</author>
+			<author>Vijay</author>
+			<publications>NIT</publications>
+		</book>
+		
+		<book>
+		    <title>Social Science</title>
+			<price>2000</price>
+			<author>Tom</author>
+		</book>	
+</books>
