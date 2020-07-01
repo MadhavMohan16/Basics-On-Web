@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  employees SYSTEM "employees.dtd">
+<employees>
+	<employee>
+		The employee name is<empname>Sameer</empname>
+		and the salary is<empsalary>1000</empsalary>
+	</employee>
+</employees>
