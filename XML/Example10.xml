@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees xmlns="http://www.example.org/Example10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Example10 First.xsd">
+<employee>
+<empNo>101</empNo>
+<name>Sameer</name>
+<salary>1000</salary>
+</employee>
+
+<employee>
+<empNo>102</empNo>
+<name>Vijay</name>
+<salary>2000</salary>
+</employee>
+
+<employee>
+<empNo>103</empNo>
+<name>Tom</name>
+<salary>3000</salary>
+</employee>
+
+</employees>
